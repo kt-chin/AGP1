@@ -1,7 +1,7 @@
 *_AGP 1 Solutions:*_
 
 *C++ Hello World*
-
+```
 #include <iostream>
 #include <cstdio>
 using namespace std;
@@ -10,9 +10,9 @@ int main() {
     printf("Hello, World!");
     return 0;
 }
-
+```
 *Input and Output*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -29,9 +29,9 @@ int main() {
     std::cout << sum << std::endl;
     return 0;
 }
-
+```
 *Basic Data Types*
-
+```
 #include <iostream>
 #include <cstdio>
 using namespace std;
@@ -48,9 +48,9 @@ int main() {
     // Complete the code.
     return 0;
 }
-
+```
 *Conditional Statement*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -75,9 +75,9 @@ string s[] = {
     a<=9 ? cout << s[a] : cout<< "Greater than 9";
    return 0;
 }
-
+```
 *For Loop*
-
+```
 #include <iostream>
 #include <cstdio>
 using namespace std;
@@ -115,9 +115,9 @@ int main() {
         }
     return 0;
 }
-
+```
 *Functions*
-
+```
 #include <iostream>
 #include <cstdio>
 using namespace std;
@@ -135,9 +135,9 @@ int main() {
     
     return 0;
 }
-
+```
 *Pointer*
-
+```
 #include <stdio.h>
 void update(int *a,int *b) {
     int x = *a;
@@ -154,9 +154,9 @@ int main() {
     printf("%d\n%d", a, b);
     return 0;
 }
-
+```
 *Array Introductions*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -175,9 +175,9 @@ int main() {
         cout << arr[i] << " ";  
     return 0;
 }
-
+```
 *Simple Array Sum*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -198,9 +198,9 @@ int main(){
     
     return 0;
 }
-
+```
 *Arrays - DS*
-
+```
 #include <map>
 #include <set>
 #include <list>
@@ -240,9 +240,9 @@ int main(){
  
     return 0;
 }
-
+```
 *Operator Overloading*
-
+```
 class Matrix{
 public:
 vector<vector<int> > a;
@@ -258,9 +258,9 @@ Matrix & operator + (const Matrix &y) {
     return *this;
 }
 };
-
+```
 *Plus Minus*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -284,9 +284,9 @@ int main(){
     cout << (zero/n) << endl;
     return 0;
 }
-
+```
 *Strings*
-
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -303,9 +303,9 @@ int main() {
     return 0;
 }
 
-
+```
 *StringStream*
-
+```
 #include <sstream>
 #include <vector>
 #include <iostream>
@@ -334,9 +334,9 @@ int main() {
     
     return 0;
 }
-
+```
 *Vector Sort*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -361,9 +361,9 @@ int main() {
     }
     return 0;
 }
-
+```
 *Inheritance Introduction*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -396,8 +396,9 @@ int main(){
     isc.triangle();
     return 0;
 }
-
+```
 *Structs*
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -421,9 +422,9 @@ int main() {
     
     return 0;
 }
-
+```
 *Classes and Objects*
-
+```
 class Student{
     private:
     vector<int> scores;
@@ -440,9 +441,9 @@ class Student{
         return std::accumulate(scores.begin(), scores.end(), 0);
     }
 };
-
+```
 *Overload Operators*
-
+```
 //Overload operators + and << for the class complex
 //+ should add two complex numbers as (a+ib) + (c+id) = (a+c) + i(b+d)
 //<< should print a complex number in the format "a+ib"
@@ -453,9 +454,9 @@ ostream& operator<<(ostream& os, const Complex& c) {
 Complex operator+(const Complex& a, const Complex& b) { 
     return { a.a + b.a, a.b + b.b };
 }
-
+```
 *Rectangle Area*
-
+```
 class Rectangle{
    public:
    int width;
@@ -475,9 +476,9 @@ class RectangleArea : public Rectangle {
         cout << width*height << endl;
     }
 };
-
+```
 *Find Digits*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -508,9 +509,9 @@ for(int i = 0; i < t; i++)
 }
 return 0;
 }
-
+```
 *Multi Level Inheritance*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -547,9 +548,9 @@ int main(){
     eqr.triangle();
     return 0;
 }
-
+```
 *Class*
-
+```
 #include<iostream>
 using namespace std;
 
@@ -625,9 +626,9 @@ myObject.totald();
 
 return 0;
 }
-
+```
 *Sherlock and Squares*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -661,9 +662,9 @@ for(int i = 0; i < t; i++){
 }
 return 0;
 }
-
+```
 *Sherlock and the Beast*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -707,9 +708,9 @@ if(m<0)
 }
 return 0;
 }
-
+```
 *A Very Big Sum*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -732,10 +733,9 @@ cout<<sum;
 
 return 0;
 }
-
-
+```
 *Angry Professor*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -766,9 +766,9 @@ int main(){
 
     return 0;
 }
-
+```
 *Utopian Tree*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -791,9 +791,9 @@ int main(){
     }
     return 0;
 }
-
+```
 *Staircase*
-
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -813,4 +813,4 @@ int main(){
     
     return 0;
 }
-
+```
